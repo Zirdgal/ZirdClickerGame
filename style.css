@@ -1,0 +1,99 @@
+::-webkit-scrollbar {
+    display:none;
+}
+body {
+    background-color:#FFC3A1;
+    overflow:hidden;
+    margin:0px;
+    font-family: 'Bigshot One', cursive;
+    font-family: 'Dosis', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.counterContainer {
+    padding:1%;
+    height:10%;
+    width:100%;
+    text-align:center;
+    border:solid;
+    border-color:#F0997D;
+}
+.counter {
+    font-size: 300%;
+    color:#A75D5D;
+    user-select:none;
+}
+.clickingContainer {
+    height:100%;
+    width:100%;
+    display:flex;
+}
+.buttonContainer {
+    height:80%;
+    width:52.5%;
+    padding:25% 0% 25% 25%;
+    border:solid;
+    border-color:#F0997D;
+}
+.upgradeContainer {
+    width:45%;
+    border:solid;
+    border-color:#F0997D;
+    overflow-y:scroll;
+}
+.upgradeBackground {
+    padding-top:30px;
+    height:8%;
+    width:97%;
+    border:solid;
+    border-width:10px;
+    border-color:#A75D5D;
+    background-color:#f19e82;
+}
+.upgradeBackground:active {
+    background-color:#f38d6b;
+}
+.upgrade1 {
+    height:100%;
+    text-align:center;
+    font-size:300%;
+    color:#885050;
+    user-select:none;
+    cursor:pointer;
+}
+.button {
+    width:500px;
+    height:250px;
+    background-color:#D3756B;
+    cursor:pointer;
+    border-style: none none solid none;
+    border-width:10px;
+    border-color:#A75D5D;
+    border-radius: 50% 50% 50px 50px;
+}
+.button:active {
+    border:none;
+    transform:translateY(-2px) 
+}
+.infoTooltip {
+    position: absolute;
+    display: inline-block;
+    padding-left:1%;
+    margin-top:12%;
+    position:absolute;
+    color:#A75D5D;
+    font-size:40px;
+}
+.infoTooltip .infoTooltipText {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+}
+.infoTooltip:hover .infoTooltipText {
+    visibility: visible;
+}
