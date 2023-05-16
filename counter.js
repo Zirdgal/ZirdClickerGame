@@ -10,4 +10,5 @@ button.onclick = function() {
 
 u1Button.onclick = function() {
     level = level + 1;
+    document.getElementById("info1").innerHTML = "Click power: " + level;
 }
