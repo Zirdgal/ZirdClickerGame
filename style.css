@@ -85,7 +85,7 @@ body {
 }
 .infoTooltip .infoTooltipText {
     visibility: hidden;
-    width: auto;
+    width: 220px;
     background-color: black;
     color: #fff;
     text-align: center;
